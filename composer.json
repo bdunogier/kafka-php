@@ -1,3 +1,9 @@
 {
-    "name": "bdunogier/kafka-php"
+    "name": "bdunogier/kafka-php",
+    "autoload": {
+        "psr-0":
+        {
+            "Kafka_": "lib/Kafka/"
+        }
+    }
 }
